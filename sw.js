@@ -1,6 +1,6 @@
 // Service Worker của Trạm Điều Phối — cache toàn bộ app để mở được khi mất mạng.
 // Tăng số CACHE_NAME (v2, v3...) mỗi khi muốn ép trình duyệt tải bản mới thay vì dùng cache cũ.
-const CACHE_NAME = 'tram-dieu-phoi-v1';
+const CACHE_NAME = 'tram-dieu-phoi-v2';
 const APP_SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', event => {
